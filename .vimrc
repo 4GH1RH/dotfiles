@@ -1,4 +1,8 @@
 runtime! debian.vim
+set list
+" set listchars=eol:↲,tab:▸\ 
+" set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set listchars=tab:▸-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 syntax on
 
@@ -38,7 +42,6 @@ set laststatus=2
 
 filetype plugin on
 filetype indent on
-
 
 
 
