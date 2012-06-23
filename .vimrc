@@ -6,13 +6,12 @@ set nocompatible
 filetype off
 
 if has('vim_starting')
-  set runtimepath+=~/.vim/neobundle.vim.git
+  set runtimepath+=~/dotfiles/neobundle.vim
 
-  call neobundle#rc(expand('~/.vim/neobundle/plugins'))
+  call neobundle#rc(expand('~/dotfiles/.vim/bundle'))
 endif
 
 NeoBundle 'git://github.com/Shougo/neocomplcache.git'
-NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
 NeoBundle 'git://github.com/Shougo/unite.vim.git'
 NeoBundle 'git://github.com/altercation/vim-colors-solarized.git'
 NeoBundle 'git://github.com/tomasr/molokai.git'
